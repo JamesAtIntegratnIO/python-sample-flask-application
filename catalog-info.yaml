@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-sample-app
+  description: An example of a python application.
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: JamesAtIntegratnIO/python-sample-flask-application
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: james@integratn.io
+  lifecycle: experimental
