@@ -15,7 +15,7 @@
     flake-utils,
     ...
   }: let
-    pythonVersion = "python311";
+    pythonVersion = "python310";
   in
     flake-utils.lib.eachDefaultSystem (
       system: let
