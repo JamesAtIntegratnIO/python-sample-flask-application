@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: JamesAtIntegratnIO/python-sample-flask-application
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
+  type: service
   owner: user:default/jamesatintegratnio
   lifecycle: experimental
   providesApis:
