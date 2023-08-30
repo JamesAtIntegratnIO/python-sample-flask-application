@@ -9,7 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: user:guest
+  owner: user:default/jamesatintegratnio
   lifecycle: experimental
   providesApis:
     - python-sample-api
@@ -25,7 +25,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: openapi
-  owner: user:guest
+  owner: user:default/jamesatintegratnio
   lifecycle: experimental
   system: python-sample-app
   definition: |
