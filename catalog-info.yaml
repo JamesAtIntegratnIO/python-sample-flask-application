@@ -35,6 +35,7 @@ spec:
       description: Sample REST APIs using Flask, OpenAPI and Connexion
       version: "1.0.0"
     servers:
+      - url: http://python-sample-app.python-sample-app.svc.cluster.local:5000
       - url: https://psa.k8s.integratn.tech/ui
         description: Rest Server showing Swagger and Connexion capability
     paths:
